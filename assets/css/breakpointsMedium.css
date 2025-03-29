@@ -1,0 +1,68 @@
+/* ==> For medium devices <=== */
+@media screen and (min-width: 540px) {
+    
+    .nav {
+        width: max-content;
+    }
+
+    .nav__list {
+        column-gap: 1.25rem;
+    }
+
+    .home__container,
+    .projects__container.
+    .services__container,
+    .experience__container,
+    .contact__container {
+        grid-template-columns: 380px;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+
+    .home__container {
+        grid-template-columns: repeat(2, 350px);
+        align-items: center;
+        /* justify-content: center; */
+    }
+
+    .perfil {
+        height: 100%;
+    }
+
+    .projects__container,
+    .services__container {
+        grid-template-columns: repeat(2, 350px);
+
+    }
+
+    .experience__container {
+        grid-template-columns: initial;
+    }
+
+    .experience__card {
+        grid-template-columns: 320px 380px;
+        align-items: center;
+    }
+
+    .footer__container,
+    .footer__content {
+        grid-template-columns: repeat(2, max-content);
+        align-items: center;
+    }
+
+    .footer__container {
+        justify-content: space-between;
+    }
+
+    .footer__content {
+        column-gap: 4.5rem;
+    }
+
+    .show-scroll {
+        bottom: 3rem;
+    }
+
+}

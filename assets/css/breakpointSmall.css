@@ -1,0 +1,13 @@
+/* ==> For small devices <=== */
+@media screen and (max-width: 320px) {
+    .container {
+        margin-inline: 1rem;
+    }
+
+    .nav {
+        padding: 1rem;
+    }
+}
+
+
+
